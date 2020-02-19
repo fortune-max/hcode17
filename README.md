@@ -1,10 +1,10 @@
-# hcode17
-Code for Hashcode 17
+# Hashcode 2017
+Code for Hashcode 17  
 
-Judge system, judge.py is written in Py2.7
-To test your solution send in question then your cache config (your answer) to get value
+Judge system, judge.py is written in Py2.7  
+To test your solution send in question then your cache config (your answer) to get value  
 
-The input below corresponds to the example question and answer in the PDF doc pgs 5 & 6.
+The input below corresponds to the example question and answer in the PDF doc pgs 5 & 6.  
 
 
 5 2 4 3 100  
@@ -21,7 +21,17 @@ The input below corresponds to the example question and answer in the PDF doc pg
 3  
 0 2  
 1 3 1  
-2 0 1
+2 0 1  
 
-Last four lines are the answer and all except that the question input
+Last four lines are the answer and all except that the question input  
+
+To test my answers and obtain their score, do  
+
+python judge.py < concat/xxxx.inout  
+
+# Files
+input/xxxx.in => questions from round  
+output/xxxx.out => cache configs from soln.py's output  
+concat/xxxx.inout => judge.py ready solutions  
+scores => scores obtained from judge and total
 
